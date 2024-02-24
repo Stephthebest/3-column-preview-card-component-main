@@ -1,0 +1,70 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 15px;
+  background-color: hsl(0, 0%, 95%);
+  margin: 0;
+}
+
+ul {
+  padding: 10% 25%;
+}
+
+li {
+  list-style: none;
+  padding: 20px;
+  padding-bottom: 75px;
+}
+
+li:first-child {
+  background-color: hsl(31, 77%, 52%);
+}
+
+li:nth-child(2) {
+  background-color: hsl(184, 100%, 22%);
+}
+
+li:last-child {
+  background-color: hsl(179, 100%, 13%);
+}
+
+h2 {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+  padding-top: 10px;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  width: 100%;
+  font-size: 16px;
+}
+button {
+  background-color: hsl(0, 0%, 95%);
+  border-color: transparent;
+  margin-top: 20%;
+  padding: 8px;
+  border-radius: 30px;
+}
+.btn1 {
+  color: hsl(31, 77%, 52%);
+}
+.btn2 {
+  color: hsl(184, 100%, 22%);
+}
+.btn3 {
+  color: hsl(179, 100%, 13%);
+}
+
+@media screen and (min-width: 1400px) {
+  ul {
+    display: flex;
+  }
+}
