@@ -52,6 +52,7 @@ button {
   margin-top: 20%;
   padding: 8px;
   border-radius: 30px;
+  cursor: pointer;
 }
 .btn1 {
   color: hsl(31, 77%, 52%);
